@@ -1,7 +1,13 @@
 <template>
-<h1>Hello</h1>
-	<form @submit.prevent="addTodo()" class="col12 col-lg-6">
-		<input v-model="newTodoString " placeholder="What To-Do now" type="text" class="form-control">
+	<h1>Hello</h1>
+	<form @submit.prevent="addTodo()" class=" d-flex flex-row bg-light p-0" style="margin: 12px !important; box-sizing: border-box; width: 100%">
+		<input
+			v-model="newTodoString"
+			placeholder="What To-Do now"
+			type="text"
+			class="form-control flex-grow-1"
+		/>
+		<button class="btn btn-outline-primary flex-grow-1">Add</button>
 	</form>
 </template>
 
