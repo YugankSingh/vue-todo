@@ -4,7 +4,8 @@
 			v-if="!isEditing"
 			:class="{ completed }"
 			@click="$emit('on-toggle')"
-			class="btn border-0 text-left flex-grow-1"
+			class="btn border-0 flex-grow-1"
+			style="text-align: left"
 		>
 			{{ todoString }}
 		</button>
