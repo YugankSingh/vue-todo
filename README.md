@@ -7,3 +7,5 @@
 
 
 # What I learned
+- Basics of Vue.
+- Passing between child and parent component.
